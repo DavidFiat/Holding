@@ -20,13 +20,22 @@ public class Building{
 	
 	//Methods
 	
+	/**
+	* Constructor method for class Building. 
+	* @param floorsNumber are the number of floor the building has.
+
+	*/
 	public Building(int floorsNumber){
 		this.floorsNumber=floorsNumber;
 		this.cubicles=cubicles;
 	
 	cubicles= new Cubicle[floorsNumber][MAX_CUBICLES];
 	
-	}x|
+	}
+	/**
+	* This method allows to get the number of floors of the building. 
+	* @return building floor's number.
+	*/
 	
 	public int getFloorsNumber(){
 		return floorsNumber;
